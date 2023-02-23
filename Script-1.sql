@@ -1,6 +1,7 @@
 //Teacher reviews:
 
 CREATE TABLE teachers (
+    student_id INT,
     teacher_id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     subjects_taught VARCHAR(100) NOT NULL,
